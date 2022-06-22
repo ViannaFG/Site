@@ -20,7 +20,7 @@ function showNews(){
                             <h3 class="card-title">${data.title}</h3>
                             <p class="card-text" style="overflow: hidden; height: 60px;">${data.release_date}</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a class="hiper" href="detalhes/?movie=?movie=${data.id}">VER MAIS </a>
+                                <a class="hiper" href="../detalhes/?movie=?movie=${data.id}">VER MAIS </a>
                             </div>
                         </div>
                     </div>
