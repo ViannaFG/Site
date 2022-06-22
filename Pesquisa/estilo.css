@@ -1,0 +1,117 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+     
+}
+
+.hiper{
+    text-decoration: double;
+    color: #32a852;
+    margin: auto;
+    font-size: 25px;
+}
+
+.cardImg{
+    width: 100%;
+    height: 100%;
+}
+
+.imageD{
+    width: 50%;
+}
+
+.pesquisa{
+    padding: 20px 0 20px 0;
+}
+.botton{
+    text-align: center;
+    width: 100%;
+}
+.banner{
+    display: block;
+    width: 80%;
+    height: auto;
+    border-radius: 60px;
+
+}
+
+#footer{
+    position: fixed;
+    margin-top: 400px;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(19, 19, 20);
+}
+
+.tag{
+    width: 10px;
+    height: 25px;
+    margin: 0px 5px;
+    background-color:#a3a3a3;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nome{
+    font-size: 20px;
+    text-align: center;
+}
+.titulos{
+    text-align: left;
+    color: #707070;
+    font-size: 40px;
+}
+
+.infos{
+    list-style-type: none;
+    text-align: left;
+}
+
+.pessoalInfos{
+    list-style-type: none;
+    text-align: left;
+}
+
+.filmes{
+    font-style: bold;
+    font-size: 25px;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin: 0px 5px;
+    
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+#footer {
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.22);
+ }
+
+/*Media Queries*/
+/* PARA SAMSUNG GALAXY S5; PIXEL2; PIXEL 2XL;IPHONE5/SE; IPHONE 6,7,8; IPHONE 6,6,8 PLUS; IPHONEX      */
+@media screen and (min-width:0px) and (max-width:767px){
+
+.sum{
+    display: none;
+}
+
+.bannerb{
+    width: 150px;
+    height: auto;
+}
+}
